@@ -107,7 +107,7 @@ a {
   text-decoration: none;
 }
 
-img,
+img,video,
 svg {
   max-width: 100%;
   height: auto;
@@ -349,9 +349,11 @@ svg {
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
+  display: flex;
 }
 
 .about__data{
+  /* display: flex; */
   text-align: center;
 }
 
@@ -454,6 +456,52 @@ svg {
   justify-content: center;
   padding-block: 1rem;
 }
+
+.video1{
+  background-image: url(./img1.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 20px 20px #0000003b; 
+}
+.video2{
+  background-image: url(./img2.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 20px 20px #0000003b; 
+}
+.video3{
+  background-image: url(./img3.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 20px 20px #0000003b; 
+}
+.video4{
+  background-image: url(./img4.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 20px 20px #0000003b; 
+}
+.video5{
+  background-image: url(./img5.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 20px 20px #0000003b; 
+}
+.video6{
+  background-image: url(./img6.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0px 20px 20px #0000003b; 
+}
+
+.video1,.video2,.video3,.video4,.video5,.video6, .thevideo{
+  height: 12.3rem;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 
 .project__card{
   position: relative;
