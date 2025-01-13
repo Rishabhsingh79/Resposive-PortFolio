@@ -10,6 +10,3 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 https://rishabhsingh79.github.io/Resposive-PortFolio/
-
-
-![preview img](/preview.png)
