@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-Patrick <span>Moz</span>
+Rishabh <span>Singh</span>
 
 .nav__link
 Home - About - Services - Projects - Contact
@@ -11,7 +11,7 @@ Home - About - Services - Projects - Contact
 Hello, <span>I’m</span>
 
 .home__title
-Patrick Moz
+Rishabh Singh
 
 .home__education
 Front-end Developer
